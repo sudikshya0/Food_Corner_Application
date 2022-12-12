@@ -17,10 +17,10 @@ const Header = () => {
             </div>
             <div className="header-left">
               <ul>
-                <Link to='/'><li>Home</li></Link>
-                <Link to="/menu"><li>Menu</li></Link>
-                <Link to="/about"><li>About</li></Link>
-                <Link to="/contact"><li>Contact</li></Link>
+                <Link to='/' style={{ textDecoration: 'none' }}><li>Home</li></Link>
+                <Link to="/menu" style={{ textDecoration: 'none' }}><li>Menu</li></Link>
+                <Link to="/about" style={{ textDecoration: 'none' }}><li>About</li></Link>
+                <Link to="/contact" style={{ textDecoration: 'none' }}><li>Contact</li></Link>
               </ul>
             </div>
         </div>
