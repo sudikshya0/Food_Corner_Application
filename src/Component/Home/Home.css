@@ -1,0 +1,40 @@
+.home-container {
+    background-image: url("../assets/food.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    
+    height: 100vh;
+    padding-top: 85px;
+  }
+
+  .home-text {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .home-subtext {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .order-btn{
+    width: 150px;
+    padding: 8px 0px;
+    
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+
+  .order-btn:hover {
+    background-color: rgb(46, 46, 46);
+  }

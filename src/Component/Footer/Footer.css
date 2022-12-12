@@ -1,0 +1,33 @@
+.footer-container {
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 250px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-icons i {
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+}
+
+.footer-text{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+
